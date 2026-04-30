@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class5th (Generalization)",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class6th (Collections)", "..\Class6th (Collections)\Class6th (Collections).csproj", "{12E7D04A-AEB4-4711-AB00-4B9D2BC7D42B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class7th (Enumerator)", "..\Class7th (Enumerator)\Class7th (Enumerator).csproj", "{2CC73914-9577-41DC-8296-4E8B78BEB065}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class7th (Enumerator)", "..\Class7th (Enumerator)\Class7th (Enumerator).csproj", "{2CC73914-9577-41DC-8296-4E8B78BEB065}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class8th (Delegate)", "..\Class8th (Delegate)\Class8th (Delegate).csproj", "{659C83D6-7CFA-4F1A-B9A9-971AEB80AC01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{2CC73914-9577-41DC-8296-4E8B78BEB065}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CC73914-9577-41DC-8296-4E8B78BEB065}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CC73914-9577-41DC-8296-4E8B78BEB065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{659C83D6-7CFA-4F1A-B9A9-971AEB80AC01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{659C83D6-7CFA-4F1A-B9A9-971AEB80AC01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{659C83D6-7CFA-4F1A-B9A9-971AEB80AC01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{659C83D6-7CFA-4F1A-B9A9-971AEB80AC01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
