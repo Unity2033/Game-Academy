@@ -4,14 +4,19 @@
     {
         static void Main(string[] args)
         {
-            #region 단일 책임 원칙
-            // 클래스는 하나의 기능으로 수정될 수 있도록 설계해야 하는 원칙입니다.
+            #region 개방 폐쇄 원칙
+            // 소프트웨어 개체는 확장에 대해 열려 있어야 하며,
+            // 수정에 대해서는 닫혀 있도록 설계되어야 하는 원칙입니다.
 
-            User user = new User("error@google.com", "Internet9");
+            Sensor sensor = new Sensor();
 
-            Persistence persistence = new Persistence();
+            Bread bread = new Bread();
+            Sealant sealant = new Sealant();
+            Defective defective = new Defective();
 
-            persistence.Save(user);
+            sensor.Detect(bread);
+            sensor.Detect(sealant);
+            sensor.Detect(defective);
 
             #endregion
 
