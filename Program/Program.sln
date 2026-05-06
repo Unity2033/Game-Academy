@@ -21,7 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class7th (Enumerator)", "..
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class8th (Delegate)", "..\Class8th (Delegate)\Class8th (Delegate).csproj", "{659C83D6-7CFA-4F1A-B9A9-971AEB80AC01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class9th (Single Responsibility Principle)", "..\Class9th (Single Responsibility Principle)\Class9th (Single Responsibility Principle).csproj", "{BA85EDC6-073E-4DFC-83E1-AB557EDA6883}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class9th (Single Responsibility Principle)", "..\Class9th (Single Responsibility Principle)\Class9th (Single Responsibility Principle).csproj", "{BA85EDC6-073E-4DFC-83E1-AB557EDA6883}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class10th (Open Closed Principle)", "..\Class10th (Open Closed Principle)\Class10th (Open Closed Principle).csproj", "{9B82E970-AF2E-4409-8983-5976EB2B6B10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class11th (Interface Segregation Principle)", "..\Class11th (Interface Segregation Principle)\Class11th (Interface Segregation Principle).csproj", "{CFF6AD7B-84FB-4E8E-8794-BC26C27C8ED5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{BA85EDC6-073E-4DFC-83E1-AB557EDA6883}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA85EDC6-073E-4DFC-83E1-AB557EDA6883}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA85EDC6-073E-4DFC-83E1-AB557EDA6883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B82E970-AF2E-4409-8983-5976EB2B6B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B82E970-AF2E-4409-8983-5976EB2B6B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B82E970-AF2E-4409-8983-5976EB2B6B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B82E970-AF2E-4409-8983-5976EB2B6B10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFF6AD7B-84FB-4E8E-8794-BC26C27C8ED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF6AD7B-84FB-4E8E-8794-BC26C27C8ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF6AD7B-84FB-4E8E-8794-BC26C27C8ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF6AD7B-84FB-4E8E-8794-BC26C27C8ED5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
